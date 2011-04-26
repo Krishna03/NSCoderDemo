@@ -1,0 +1,265 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAED2EAF13676BCE001B0CC5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAED2EAE13676BCE001B0CC5 /* UIKit.framework */; };
+		AAED2EB113676BCE001B0CC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAED2EB013676BCE001B0CC5 /* Foundation.framework */; };
+		AAED2EB313676BCE001B0CC5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAED2EB213676BCE001B0CC5 /* CoreGraphics.framework */; };
+		AAED2EB913676BCE001B0CC5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AAED2EB713676BCE001B0CC5 /* InfoPlist.strings */; };
+		AAED2EBC13676BCE001B0CC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAED2EBB13676BCE001B0CC5 /* main.m */; };
+		AAED2EBF13676BCE001B0CC5 /* NSCoderDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAED2EBE13676BCE001B0CC5 /* NSCoderDemoAppDelegate.m */; };
+		AAED2EC213676BCE001B0CC5 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAED2EC013676BCE001B0CC5 /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AAED2EAA13676BCE001B0CC5 /* NSCoderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSCoderDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAED2EAE13676BCE001B0CC5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AAED2EB013676BCE001B0CC5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AAED2EB213676BCE001B0CC5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AAED2EB613676BCE001B0CC5 /* NSCoderDemo-Info.plist */ = {isa = PBXFileReference; path = "NSCoderDemo-Info.plist"; sourceTree = "<group>"; };
+		AAED2EB813676BCE001B0CC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AAED2EBA13676BCE001B0CC5 /* NSCoderDemo-Prefix.pch */ = {isa = PBXFileReference; path = "NSCoderDemo-Prefix.pch"; sourceTree = "<group>"; };
+		AAED2EBB13676BCE001B0CC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AAED2EBD13676BCE001B0CC5 /* NSCoderDemoAppDelegate.h */ = {isa = PBXFileReference; path = NSCoderDemoAppDelegate.h; sourceTree = "<group>"; };
+		AAED2EBE13676BCE001B0CC5 /* NSCoderDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSCoderDemoAppDelegate.m; sourceTree = "<group>"; };
+		AAED2EC113676BCE001B0CC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAED2EA713676BCE001B0CC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAED2EAF13676BCE001B0CC5 /* UIKit.framework in Frameworks */,
+				AAED2EB113676BCE001B0CC5 /* Foundation.framework in Frameworks */,
+				AAED2EB313676BCE001B0CC5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAED2E9F13676BCE001B0CC5 = {
+			isa = PBXGroup;
+			children = (
+				AAED2EB413676BCE001B0CC5 /* NSCoderDemo */,
+				AAED2EAD13676BCE001B0CC5 /* Frameworks */,
+				AAED2EAB13676BCE001B0CC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAED2EAB13676BCE001B0CC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAED2EAA13676BCE001B0CC5 /* NSCoderDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAED2EAD13676BCE001B0CC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAED2EAE13676BCE001B0CC5 /* UIKit.framework */,
+				AAED2EB013676BCE001B0CC5 /* Foundation.framework */,
+				AAED2EB213676BCE001B0CC5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AAED2EB413676BCE001B0CC5 /* NSCoderDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AAED2EBD13676BCE001B0CC5 /* NSCoderDemoAppDelegate.h */,
+				AAED2EBE13676BCE001B0CC5 /* NSCoderDemoAppDelegate.m */,
+				AAED2EC013676BCE001B0CC5 /* MainWindow.xib */,
+				AAED2EB513676BCE001B0CC5 /* Supporting Files */,
+			);
+			path = NSCoderDemo;
+			sourceTree = "<group>";
+		};
+		AAED2EB513676BCE001B0CC5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAED2EB613676BCE001B0CC5 /* NSCoderDemo-Info.plist */,
+				AAED2EB713676BCE001B0CC5 /* InfoPlist.strings */,
+				AAED2EBA13676BCE001B0CC5 /* NSCoderDemo-Prefix.pch */,
+				AAED2EBB13676BCE001B0CC5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAED2EA913676BCE001B0CC5 /* NSCoderDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAED2EC513676BCE001B0CC5 /* Build configuration list for PBXNativeTarget "NSCoderDemo" */;
+			buildPhases = (
+				AAED2EA613676BCE001B0CC5 /* Sources */,
+				AAED2EA713676BCE001B0CC5 /* Frameworks */,
+				AAED2EA813676BCE001B0CC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSCoderDemo;
+			productName = NSCoderDemo;
+			productReference = AAED2EAA13676BCE001B0CC5 /* NSCoderDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAED2EA113676BCE001B0CC5 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = AAED2EA413676BCE001B0CC5 /* Build configuration list for PBXProject "NSCoderDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AAED2E9F13676BCE001B0CC5;
+			productRefGroup = AAED2EAB13676BCE001B0CC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAED2EA913676BCE001B0CC5 /* NSCoderDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAED2EA813676BCE001B0CC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAED2EB913676BCE001B0CC5 /* InfoPlist.strings in Resources */,
+				AAED2EC213676BCE001B0CC5 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAED2EA613676BCE001B0CC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAED2EBC13676BCE001B0CC5 /* main.m in Sources */,
+				AAED2EBF13676BCE001B0CC5 /* NSCoderDemoAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AAED2EB713676BCE001B0CC5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAED2EB813676BCE001B0CC5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AAED2EC013676BCE001B0CC5 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAED2EC113676BCE001B0CC5 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAED2EC313676BCE001B0CC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AAED2EC413676BCE001B0CC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		AAED2EC613676BCE001B0CC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSCoderDemo/NSCoderDemo-Prefix.pch";
+				INFOPLIST_FILE = "NSCoderDemo/NSCoderDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AAED2EC713676BCE001B0CC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSCoderDemo/NSCoderDemo-Prefix.pch";
+				INFOPLIST_FILE = "NSCoderDemo/NSCoderDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAED2EA413676BCE001B0CC5 /* Build configuration list for PBXProject "NSCoderDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAED2EC313676BCE001B0CC5 /* Debug */,
+				AAED2EC413676BCE001B0CC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAED2EC513676BCE001B0CC5 /* Build configuration list for PBXNativeTarget "NSCoderDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAED2EC613676BCE001B0CC5 /* Debug */,
+				AAED2EC713676BCE001B0CC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAED2EA113676BCE001B0CC5 /* Project object */;
+}
