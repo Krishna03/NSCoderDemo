@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RootViewController.h"
 
 @interface NSCoderDemoAppDelegate : NSObject <UIApplicationDelegate> {
-
+    IBOutlet RootViewController *rootViewController;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
